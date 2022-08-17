@@ -20,7 +20,8 @@ func main() {
 	// print to the screen
 	fmt.Println("Hello, World")
 	// %v returns the value and %T returns the type
-	fmt.Printf("%v, %T %()\n", c, c, a+b+c)
+	// golang supports interpolation so use %d
+	fmt.Printf(" c is = to %v, of type %T, a+b+c = %d\n", c, c, a+b+c)
 	// retruns : 100, int %!{(int=130)}
 	// compiler has the ability infer the type for you though implicit variable
 	// variable declaration is not always encouraged

@@ -1,5 +1,5 @@
 // Arrays in golang
-// Arrays are homogenous ontainers used to store multple elements
+// Arrays are homogenous containers used to store multiple elements
 // of the same data type
 
 package main

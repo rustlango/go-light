@@ -12,6 +12,7 @@ import "fmt"
 func main() {
 	// how to create a variable in golang
 	var a int = 10
+	var b int = 20
 	// Println() is a  method from the standard fmt library to
 	// print to the screen
 	fmt.Println("Hello, World")

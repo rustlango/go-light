@@ -29,5 +29,4 @@ func main() {
 	var f bool = true
 	fmt.Println(e && f)                 // returns false
 	fmt.Println("e or f is %d", e || f) // returns true
-
 }

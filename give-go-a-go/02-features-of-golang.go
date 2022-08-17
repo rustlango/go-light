@@ -9,3 +9,5 @@
 //3. Go has a Garabage collector bt instead of going the error-prone route for mnaually
 // conducting memory management - it does it uatomatically.
 // It has an automatic Garabage collection
+// go compiler automatically alocates and deallocates memory of data after it's use
+// or lifetime (as rustaceans would call it)

@@ -4,6 +4,7 @@
 // 1. Arithmetic Operators
 // 2. Relational Operators
 // 3. Logical Operators
+// && is an AND logical operator and || is the OR operator
 
 package main
 
@@ -21,6 +22,12 @@ func main() {
 	var d float32 = 20
 	fmt.Println(c / d)  // returns 0.5 because flota32 type not ineteger
 	fmt.Println(c < d)  // true
-	fmt.Println(a == b) //  false: c is not equal to d
-	fmt.Println(a != b) // true: c is not equal to d
+	fmt.Println(c == d) //  false: c is not equal to d
+	fmt.Println(c != d) // true: c is not equal to d
+	// && is an AND logical operator and || is the OR operator
+	var e bool = false
+	var f bool = true
+	fmt.Println(e && f)                 // returns false
+	fmt.Println("e or f is %d", e || f) // returns true
+
 }

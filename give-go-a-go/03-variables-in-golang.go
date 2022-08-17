@@ -20,8 +20,21 @@ func main() {
 	// print to the screen
 	fmt.Println("Hello, World")
 	// %v returns the value and %T returns the type
-	fmt.Printf("%v, %T %()", c, c, a+b+c)
+	fmt.Printf("%v, %T %()\n", c, c, a+b+c)
 	// retruns : 100, int %!{(int=130)}
 	// compiler has the ability infer the type for you though implicit variable
 	// variable declaration is not always encouraged
+
+	// In go you can decalre multiple variables in a variable block as shown
+	// below
+	// this variable block syntax is for variabbles that are always use together
+	var (
+		stu_name  string  = "Lemuel"
+		stu_marks float32 = 98.07
+		stu_id    int     = 14
+	)
+
+	fmt.Printf("%v %T\n", stu_name, stu_name)
+	fmt.Printf("%v %T\n", stu_marks, stu_marks)
+	fmt.Printf("%v %T\n", stu_id, stu_id)
 }

@@ -1,5 +1,5 @@
 // golang const
-// values cannot be changed
+// const values cannot be changed
 // use the const keyword to declare a constant
 
 package main
@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("constant a equals", a)
 
 	// let us create a const block to contain multple constant values
-	// a ocnst blockc is nice because you it reduces the boilerplate
+	// a const block is nice because it reduces the boilerplate
 	// of having to write out the const type multple times for each separate
 	// declaration if we were to do it the normal way
 	const (

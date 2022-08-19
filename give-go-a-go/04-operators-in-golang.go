@@ -1,6 +1,6 @@
 // Operators in golang
 
-// There three main categories of operators in goalng
+// There are three main categories of operators in golang
 // 1. Arithmetic Operators
 // 2. Relational Operators
 // 3. Logical Operators
@@ -14,7 +14,7 @@ func main() {
 
 	var a int = 10
 	var b int = 20
-	fmt.Println("what is int divided by d int?", a/b) // will be zero because the datat types are integers not float
+	fmt.Println("what is c int divided by d int?", a/b) // will be zero because the data types are integers not float
 	fmt.Println("is a greater than b?", a > b)        // false
 	fmt.Println("is a equal to b?", a == b)           //  false: 10 is ot equal to b
 	fmt.Println("is a not equal to b?", a != b)       // true: a is not equal to b

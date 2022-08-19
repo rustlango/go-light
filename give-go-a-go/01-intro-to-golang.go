@@ -7,5 +7,6 @@ package main
 import "fmt"
 
 func main() {
+	// Println is a method applied from the standard library
 	fmt.Println("hello world")
 }
